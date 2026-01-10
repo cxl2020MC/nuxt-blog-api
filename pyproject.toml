@@ -9,9 +9,8 @@ dependencies = [
     "fastapi[standard]",
     "motor",
     "passlib[bcrypt]",
-    "pydantic>=2.12.5",
+    "pydantic",
     "pyjwt[crypto]",
     "python-dotenv",
     "python-multipart",
-    "uvicorn[standard]",
 ]

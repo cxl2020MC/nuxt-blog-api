@@ -209,7 +209,6 @@ dependencies = [
     { name = "pyjwt", extra = ["crypto"] },
     { name = "python-dotenv" },
     { name = "python-multipart" },
-    { name = "uvicorn", extra = ["standard"] },
 ]
 
 [package.metadata]
@@ -218,11 +217,10 @@ requires-dist = [
     { name = "fastapi", extras = ["standard"] },
     { name = "motor" },
     { name = "passlib", extras = ["bcrypt"] },
-    { name = "pydantic", specifier = ">=2.12.5" },
+    { name = "pydantic" },
     { name = "pyjwt", extras = ["crypto"] },
     { name = "python-dotenv" },
     { name = "python-multipart" },
-    { name = "uvicorn", extras = ["standard"] },
 ]
 
 [[package]]
