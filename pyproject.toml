@@ -6,9 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp",
-    "fastapi",
+    "fastapi[standard]",
     "motor",
     "passlib[bcrypt]",
+    "pydantic>=2.12.5",
     "pyjwt[crypto]",
     "python-dotenv",
     "python-multipart",
